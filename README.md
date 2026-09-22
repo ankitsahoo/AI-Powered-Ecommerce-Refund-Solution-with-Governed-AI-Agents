@@ -6,3 +6,8 @@ A real e-commerce return/refund process, run by a governed multi-agent AI system
 - A real e-commerce return/refund pipeline where 10 specialized agents (data-quality, policy, image, behavior, decision, critic, etc.) jointly review each case.
 - A reviewer/admin dashboard with a shadow → suggest → assist → auto automation ladder and a global kill switch.
 - A fully local, Docker Compose–run stack (FastAPI, LangGraph, Bifrost, ContextForge, OPA, Langfuse, Keycloak) with an append-only, hash-chained audit log for every action.
+
+# Architecture Diagram
+
+<img width="1222" height="1287" alt="Architecture" src="https://github.com/user-attachments/assets/2d57a50d-a3d6-47b0-8ebf-425f3978eed6" />
+
